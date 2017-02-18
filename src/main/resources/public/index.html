@@ -11,8 +11,8 @@
 </head>
 <body>
 
-<h1>Place Ships</h1>
-<div id="AircraftcarrierDiv">
+<h1><center>Place Ships</center></h1>
+<div  align="center" id="AircraftcarrierDiv">
     Ship:
     <select name="shipSelec" id="shipSelec">
         <option value="aircraftCarrier">Aircraft Carrier</option>
@@ -60,7 +60,11 @@
 
 <section id="todoapp" ic-target="this">
     <!--#parse("/velocity/todoList.vm")-->
-    <h1>Your Board</h1>
+    <h1>
+    <p style="text-align:left;">
+    Your Board
+    <span style="float:right;">Opponent Board</span>
+  </p></h1>
     <!-- <H1 align="right">Theirs</H1> -->
     <div id="MyBoard" class="gameBoard">
         <table align= "left">

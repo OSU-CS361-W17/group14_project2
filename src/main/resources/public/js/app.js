@@ -250,14 +250,16 @@ function handleErrorPlace(){
             //I'm not sure if you need this or not for calling it, so I'll just leave this here.
             //Run the place ship function
          }
+     }
  }
 
 $(document).ready(function(){
     var fire = document.getElementById("fire_btn");
     var scan = document.getElementById("scan_btn");
     var place = document.getElementById("place_btn");
-
-    fire.addEventListener('click',handleErrorFire);
-    scan.addEventListener('click',handleErrorScan);
-    place.addEventListener('click',handleErrorPlace);
+    if (fire != null && scan != null && place != null){
+        fire.addEventListener('click',handleErrorFire);
+        scan.addEventListener('click',handleErrorScan);
+        place.addEventListener('click',handleErrorPlace);
+    }
 });

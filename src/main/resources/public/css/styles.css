@@ -27,6 +27,10 @@ background-color: orange;
 label{
     display:block;
 }
+#FireDiv{
+  margin: 32em 0em 0em 0em;
+  text-align: left;
+}
 
 /*
 button {

@@ -24,6 +24,10 @@ table, th, td {
 background-color: orange;
 }
 
+label{
+    display:block;
+}
+
 /*
 button {
     margin: 0;
